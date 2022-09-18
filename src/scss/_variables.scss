@@ -1,0 +1,26 @@
+//Screen sizes:
+$mobile: 375px;
+
+//primary colors:
+$darkblue_into_emain_background: hsl(217, 28%, 15%);
+$main_background: hsl(218, 28%, 13%);
+$footer_background: hsl(216, 53%, 9%);
+$testimonials_background: hsl(219, 30%, 18%);
+
+//accent colors:
+$cyan_inside_call-to-action_gradient: hsl(176, 68%, 64%);
+$blue_inside_call-to-action_gradient: hsl(198, 60%, 50%);
+$error: hsl(0, 100%, 63%);
+
+//neutral color:
+$white: hsl(0, 0%, 100%);
+
+//font-size:
+$body_fontsize: 14px;
+
+//font-family:
+$ff_headings: "Raleway", sans-serif;
+$ff_call-to-actions: $ff_headings;
+$ff_header: $ff_headings;
+$ff_navigation: $ff_headings;
+$ff_body: "Open Sans", sans-serif;

@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(218deg, 28%, 13%);
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+}
+.navigation .navigation_bar {
+  display: grid;
+  grid-template-columns: repeat(3, 10vh);
+  justify-items: center;
+  justify-content: end;
+}
+.navigation .navigation_bar nav {
+  align-self: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+}
+.content_text {
+  margin-bottom: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

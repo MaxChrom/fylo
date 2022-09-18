@@ -1,0 +1,45 @@
+@use "variables" as v;
+
+// .attribution {
+//   font-size: 11px;
+//   text-align: center;
+// }
+// .attribution a {
+//   color: hsl(228, 45%, 44%);
+//   text-decoration: none;
+// }
+body {
+  background-color: v.$main_background;
+  font-size: v.$body_fontsize;
+  font-family: v.$ff_body;
+  color: v.$white;
+}
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  .navigation_bar {
+    display: grid;
+    grid-template-columns: repeat(3, 10vh);
+    justify-items: center;
+    justify-content: end;
+    & nav {
+      align-self: center;
+    }
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  &_img {
+  }
+  &_text {
+    margin-bottom: 1rem;
+  }
+}
+// .features {
+//   display: grid;
+//   grid-template-columns: 50% 50%;
+//   grid-template-rows: 1fr 1fr;
+// }
