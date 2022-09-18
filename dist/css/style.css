@@ -28,4 +28,15 @@ body {
 .content_text {
   margin-bottom: 1rem;
 }
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  justify-content: center;
+}
+.features_access {
+  align-self: center;
+  justify-self: center;
+}
 /*# sourceMappingURL=style.css.map */
